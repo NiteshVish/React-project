@@ -1,0 +1,123 @@
+/* Main container */
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 90vh;
+  /* margin: 600px; */
+  position:relative;
+  left: 300px;
+  background: linear-gradient(to right, #a8c0ff, #c1d0ff);
+  font-family: Arial, sans-serif;
+}
+
+/* Left section */
+.left-section {
+  background-image: url("https://images.unsplash.com/photo-1542204165-65bf26472b9b?fit=crop&w=800&q=80"); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 10px 0 0 10px;
+  margin: 30px 0 30px 30px;
+  width:350px;
+}
+
+.onimage {
+  background-color: rgba(108, 0, 143, 0.7);
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px;
+  border-radius: 10px 0 0 10px;
+}
+
+.onimage h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.onimage p {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.onimage h3 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.onimage h3 span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* Right section */
+.right-section {
+  flex: 1;
+  background-color: white;
+  padding: 40px;
+  border-radius: 0 10px 10px 0;
+  margin: 30px 30px 30px 0;
+}
+
+.right-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+input{
+    background-color: whitesmoke;
+    border: 1px solid lightgrey ;
+    border-radius: 2px;
+    color: black;
+    height: 38px;
+    padding-left: 10px;
+}
+input:focus{
+    border: 1px solid gray;
+    outline: none;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.checkbox input {
+  margin-right: 10px;
+}
+
+.checkbox a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px;
+  border: none;
+  /* width: 200px; */
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  /* margin-left:100px  */
+}
+
+button:hover {
+  background-color: #2563eb;
+}
