@@ -8,7 +8,7 @@ function parent(props) {
         <div className='bg-info p-5 m-auto w-75 border'>
             <h4> parent component</h4>
             
-            
+             
         </div>
         </>
     );
